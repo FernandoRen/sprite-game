@@ -18,6 +18,9 @@ let frameX = 0;
 
 function animate(){
     ctx.clearRect(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
+    ctx.fillText("a)Normal  b)Flotar  c)Caer  d)Correr  e)Jugar  f)Acostarse  g)Rodar  h)Morder  i) Mimir  j)Ladrar",
+                20, 40);
+    ctx.font = "14px 'Times New Roman', Times, serif";
     x++;
     ctx.drawImage(player, 
         frameX * spriteWidth, frameY * spriteHeight,
